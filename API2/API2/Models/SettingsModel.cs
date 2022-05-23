@@ -1,11 +1,11 @@
 ﻿namespace API2.Models
 {
-    public class Settings
+    public class SettingsModel
     {
         public string UrlAPI1 { get; set; }
         public string UrlGitHub { get; set; }
 
-        public Settings()
+        public SettingsModel()
         {
             WebApplicationBuilder? builder = WebApplication.CreateBuilder();
             WebApplication? app = builder.Build();

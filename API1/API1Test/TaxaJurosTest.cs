@@ -4,7 +4,7 @@ namespace API1Test
 {
     public class TaxaJurosTest
     {
-        TaxaJurosController _taxaJurosController;
+        TaxaJurosController? _taxaJurosController;
 
         [Fact]
         public void Retornar_QuandoChamado_Double()

@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace API2Test
 {
-    public class GlobalTest
+    public class UtilitiesTest
     {
-        private GlobalModel? _global;
+        private UtilitiesModel? _utilities;
 
         [Theory]
         [InlineData(100.1039, 2, 100.10)]
@@ -19,10 +19,10 @@ namespace API2Test
         [InlineData(100.8112423658, 5, 100.81124)]
         public void Trunca_Valor_RetornaDouble(double valor, int qtdeCasasDecimais, double valorEsperado)
         {
-            _global = new GlobalModel();
+            _utilities = new UtilitiesModel();
 
             // Act
-            double valorTruncado = _global.TruncaValorComXCasasDecimais(valor, qtdeCasasDecimais);
+            double valorTruncado = _utilities.TruncaValorComXCasasDecimais(valor, qtdeCasasDecimais);
 
             // Assert
             Assert.Equal(valorEsperado, valorTruncado);
@@ -31,17 +31,17 @@ namespace API2Test
         [Fact]
         public void Calcular_QuandoChamado_RetornaDouble()
         {
-            _global = new GlobalModel();
+            _utilities = new UtilitiesModel();
 
             // Arrange
             double valor = 100.8581;
             int qtdeCasasDecimais = 2;
 
             // Act            
-            double calculaJuros = _global.TruncaValorComXCasasDecimais(valor, qtdeCasasDecimais);
+            double calculaJuros = _utilities.TruncaValorComXCasasDecimais(valor, qtdeCasasDecimais);
 
             // Assert
             Assert.IsType<double>(calculaJuros);
-        }
+        }        
     }
 }

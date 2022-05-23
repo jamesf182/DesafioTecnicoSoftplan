@@ -1,6 +1,6 @@
 ﻿namespace API2.Models
 {
-    public class GlobalModel
+    public class UtilitiesModel
     {
         public double TruncaValorComXCasasDecimais(double valor, int qtdeCasasDecimais)
         {            

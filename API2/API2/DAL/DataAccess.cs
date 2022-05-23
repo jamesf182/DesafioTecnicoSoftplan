@@ -4,11 +4,11 @@ namespace API2.DAL
 {
     public class DataAccess
     {
-        private Settings? settings;
+        private SettingsModel? settings;
 
         public DataAccess()
         {
-            settings = new Settings();
+            settings = new SettingsModel();
         }
 
         public T GetObject<T>(string filtro) where T : new()

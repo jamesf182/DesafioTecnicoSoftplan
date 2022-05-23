@@ -9,7 +9,7 @@ namespace API2.Controllers
     public class CalculaJurosController : ControllerBase
     {
         private DataAccess? _dataAccess;
-        private GlobalModel? _global;
+        private UtilitiesModel? _utilities;
 
         /// <summary>
         /// Calcula Juros
@@ -20,17 +20,17 @@ namespace API2.Controllers
         [HttpGet]
         public double GetCalculaJuros(double valorInicial, int meses)
         {
+            // instância objeto de DataAccess
+            _dataAccess = new DataAccess();
+
+            // instância objeto do Model Utilities
+            _utilities = new UtilitiesModel();
+
+            // seta url da API que será consultada
+            string url = "api/TaxaJuros";
+
             try
             {
-                // instância objeto de DataAccess
-                _dataAccess = new DataAccess();
-
-                // instância objeto do Model Global
-                _global = new GlobalModel();
-
-                // seta url da API que será consultada
-                string url = "api/TaxaJuros";
-
                 // busca a taxa de juros
                 double taxaJuros = _dataAccess.GetObject<double>(url);
 
@@ -38,7 +38,7 @@ namespace API2.Controllers
                 double valorFinal = valorInicial * Math.Pow((1 + taxaJuros), meses);
 
                 // trunca o valor final com duas casas decimais
-                valorFinal = _global.TruncaValorComXCasasDecimais(valorFinal, 2);
+                valorFinal = _utilities.TruncaValorComXCasasDecimais(valorFinal, 2);
 
                 return valorFinal;
             }

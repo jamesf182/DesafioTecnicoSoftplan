@@ -7,13 +7,8 @@ namespace API2.Controllers
     [ApiController]
     public class ShowMeTheCodeController : ControllerBase
     {
-        private Settings settings;
-
-        public ShowMeTheCodeController()
-        {
-            settings = new Settings();
-        }
-
+        private SettingsModel settings;
+        
         /// <summary>
         /// Show me the code
         /// </summary>
@@ -21,6 +16,8 @@ namespace API2.Controllers
         [HttpGet]
         public string GetUrlGitHub()
         {
+            settings = new SettingsModel();
+
             return settings.UrlGitHub;
         }
     }

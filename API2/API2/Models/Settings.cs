@@ -3,6 +3,7 @@
     public class Settings
     {
         public string UrlAPI1 { get; set; }
+        public string UrlGitHub { get; set; }
 
         public Settings()
         {
@@ -10,6 +11,7 @@
             WebApplication? app = builder.Build();
 
             UrlAPI1 = app.Configuration.GetValue<string>("UrlAPI1");
+            UrlGitHub = app.Configuration.GetValue<string>("UrlGitHub");
         }
     }
 }

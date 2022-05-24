@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API1</name>
+    </assembly>
+    <members>
+        <member name="M:API1.Controllers.TaxaJurosController.GetTaxaJuros">
+            <summary>
+            Retorna a taxa de juros
+            </summary>
+            <returns>Retorna a taxa de turos</returns>
+        </member>
+    </members>
+</doc>

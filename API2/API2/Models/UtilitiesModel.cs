@@ -11,9 +11,9 @@
             valor = Math.Truncate(valor);
 
             // divide o valor por 10 elevado ao número de casas decimais para que os dois últimos inteiros voltem a ser casas decimais
-            if(valor < 0)
+            if(valor <= 0)
             {
-                throw new ArgumentException("Valor menor que zero.");
+                throw new SystemException("Valor deve ser maior que zero.");
             }
             valor /= Math.Pow(10, qtdeCasasDecimais);
 

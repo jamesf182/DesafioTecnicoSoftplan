@@ -8,11 +8,11 @@ namespace API2.Controllers
     public class ShowMeTheCodeController : ControllerBase
     {
         private SettingsModel settings;
-        
+
         /// <summary>
-        /// Show me the code
+        /// Retorna a url onde encontra-se o código fonte do projeto no GitHub
         /// </summary>
-        /// <returns>Retorna a url onde encontra-se o código fonte no GitHub</returns>
+        /// <returns></returns>
         [HttpGet]
         public string GetUrlGitHub()
         {

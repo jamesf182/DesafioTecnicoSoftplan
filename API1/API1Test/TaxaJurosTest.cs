@@ -7,7 +7,7 @@ namespace API1Test
         TaxaJurosController? _taxaJurosController;
 
         [Fact]
-        public void Retornar_QuandoChamado_Double()
+        public void TaxaJuros_QuandoChamado_RetornaDouble()
         {
             _taxaJurosController = new TaxaJurosController();
             

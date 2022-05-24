@@ -10,9 +10,9 @@ namespace API1.Controllers
         private const double TAXA_JUROS = 0.01;
 
         /// <summary>
-        /// Taxa de Juros
+        /// Retorna a taxa de juros
         /// </summary>
-        /// <returns>Retorna a Taxa de Juros</returns>
+        /// <returns>Retorna a taxa de turos</returns>
         [HttpGet]
         public double GetTaxaJuros()
         {

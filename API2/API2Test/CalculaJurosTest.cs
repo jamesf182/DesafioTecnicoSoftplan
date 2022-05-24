@@ -7,7 +7,7 @@ namespace API2Test
         private CalculaJurosController? _calculaJurosController;
         
         [Fact]
-        public void Calcular_QuandoChamado_RetornaDouble()
+        public void CalculaJuros_QuandoChamado_RetornaDouble()
         {
             _calculaJurosController = new CalculaJurosController();
 
@@ -28,7 +28,7 @@ namespace API2Test
         [InlineData(100, 5, 105.10)]
         [InlineData(105, 2, 107.11)]
         [InlineData(105, 3, 108.18)]
-        public void Calcular_Juros_RetornaDoubleTheory(double valorInicial, int meses, double valorEsperado)
+        public void CalculaJuros_Valida_Calculo(double valorInicial, int meses, double valorEsperado)
         {
             _calculaJurosController = new CalculaJurosController();
 
@@ -37,6 +37,6 @@ namespace API2Test
 
             // Assert
             Assert.Equal(valorEsperado, calculaJuros);
-        }
+        }        
     }
 }

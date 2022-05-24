@@ -12,11 +12,11 @@ namespace API2.Controllers
         private UtilitiesModel? _utilities;
 
         /// <summary>
-        /// Calcula Juros
+        /// Calcula o valor acrescido de juros com base no período (meses)
         /// </summary>
-        /// <param name="valorInicial">Valor Inicial</param>
-        /// <param name="meses">Quantidade de Meses</param>
-        /// <returns>Retorna o cálculo dos juros</returns>
+        /// <param name="valorInicial">Valor inicial</param>
+        /// <param name="meses">Quantidade de meses</param>
+        /// <returns>Retorna o valor calculado</returns>
         [HttpGet]
         public double GetCalculaJuros(double valorInicial, int meses)
         {
@@ -44,7 +44,7 @@ namespace API2.Controllers
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                throw new Exception(ex.Message);                
             }
         }
     }

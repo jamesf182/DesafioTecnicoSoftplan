@@ -1,9 +1,4 @@
 ﻿using API2.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace API2Test
 {
@@ -17,7 +12,7 @@ namespace API2Test
         [InlineData(100.2555687, 3, 100.255)]
         [InlineData(100.38994759, 4, 100.3899)]
         [InlineData(100.8112423658, 5, 100.81124)]
-        public void Trunca_Valor_RetornaDouble(double valor, int qtdeCasasDecimais, double valorEsperado)
+        public void TruncaValor_Valida_Retorno(double valor, int qtdeCasasDecimais, double valorEsperado)
         {
             _utilities = new UtilitiesModel();
 
@@ -29,7 +24,7 @@ namespace API2Test
         }
 
         [Fact]
-        public void Calcular_QuandoChamado_RetornaDouble()
+        public void TruncaValor_QuandoChamado_RetornaDouble()
         {
             _utilities = new UtilitiesModel();
 
@@ -42,6 +37,6 @@ namespace API2Test
 
             // Assert
             Assert.IsType<double>(calculaJuros);
-        }        
+        }
     }
 }

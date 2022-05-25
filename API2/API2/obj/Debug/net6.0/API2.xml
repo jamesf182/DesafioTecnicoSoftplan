@@ -9,7 +9,7 @@
             Calcula o valor acrescido de juros com base no período (meses)
             </summary>
             <param name="valorInicial">Valor inicial</param>
-            <param name="meses">Quantidade de meses</param>
+            <param name="meses">Número de meses</param>
             <returns>Retorna o valor calculado</returns>
         </member>
         <member name="M:API2.Controllers.ShowMeTheCodeController.GetUrlGitHub">
@@ -17,6 +17,25 @@
             Retorna a url onde encontra-se o código fonte do projeto no GitHub
             </summary>
             <returns></returns>
+        </member>
+        <member name="T:API2.Models.SettingsModel">
+            <summary>
+            Classe que lê as configurações no arquivo appsettings.json
+            </summary>
+        </member>
+        <member name="T:API2.Models.UtilitiesModel">
+            <summary>
+            Classe com métodos de utilidade pública para o projeto
+            </summary>
+        </member>
+        <member name="M:API2.Models.UtilitiesModel.TruncaValorComXCasasDecimais(System.Double,System.Int32)">
+            <summary>
+            Trunca um valor com X casas decimais
+            </summary>
+            <param name="valor">Valor a ser truncado</param>
+            <param name="qtdeCasasDecimais">Quantidade de casas decimais</param>
+            <returns>Retornar o valor truncado com a quantidade de casas decimais solicitado</returns>
+            <exception cref="T:System.SystemException"></exception>
         </member>
     </members>
 </doc>

@@ -7,7 +7,7 @@ namespace API2.Controllers
     [ApiController]
     public class ShowMeTheCodeController : ControllerBase
     {
-        private SettingsModel settings;
+        private readonly ShowMeTheCodeModel _showMeTheCodeModel = new();
 
         /// <summary>
         /// Retorna a url onde encontra-se o código fonte do projeto no GitHub
@@ -16,9 +16,7 @@ namespace API2.Controllers
         [HttpGet]
         public string GetUrlGitHub()
         {
-            settings = new SettingsModel();
-
-            return settings.UrlGitHub;
+            return _showMeTheCodeModel.RetornaUrlGitHub();
         }
     }
 }

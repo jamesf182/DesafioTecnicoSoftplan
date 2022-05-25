@@ -4,13 +4,11 @@ namespace API1Test
 {
     public class TaxaJurosTest
     {
-        TaxaJurosController? _taxaJurosController;
+        TaxaJurosController _taxaJurosController = new TaxaJurosController();
 
         [Fact]
         public void TaxaJuros_QuandoChamado_RetornaDouble()
         {
-            _taxaJurosController = new TaxaJurosController();
-            
             // Act            
             double taxaJuros = _taxaJurosController.GetTaxaJuros();
 

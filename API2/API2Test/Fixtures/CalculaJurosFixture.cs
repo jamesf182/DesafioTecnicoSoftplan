@@ -1,8 +1,8 @@
-﻿using API2.ICollections;
+﻿using API.Models;
 using API2.Models;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace API2Test.Fixture
+namespace UnitTests.Fixtures
 {
     public class CalculaJurosFixture
     {

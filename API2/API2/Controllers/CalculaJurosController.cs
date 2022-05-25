@@ -10,11 +10,11 @@ namespace API2.Controllers
         private readonly CalculaJurosModel _calculaJurosModel = new();
 
         /// <summary>
-        /// Calcula o valor acrescido de juros com base no período (meses)
+        /// Calcula o valor final com juros referente a quantidade de meses
         /// </summary>
         /// <param name="valorInicial">Valor inicial</param>
         /// <param name="meses">Número de meses</param>
-        /// <returns>Retorna o valor calculado</returns>
+        /// <returns>Retorna o valor com os juros calculado</returns>
         [HttpGet]
         public double GetCalculaJuros(double valorInicial, int meses)
         {

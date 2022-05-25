@@ -12,7 +12,7 @@ namespace API1.Controllers
         /// <summary>
         /// Retorna a taxa de juros
         /// </summary>
-        /// <returns>Retorna a taxa de turos</returns>
+        /// <returns>Retorna a taxa de juros</returns>
         [HttpGet]
         public double GetTaxaJuros()
         {

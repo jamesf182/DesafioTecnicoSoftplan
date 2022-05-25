@@ -6,11 +6,11 @@
     <members>
         <member name="M:API2.Controllers.CalculaJurosController.GetCalculaJuros(System.Double,System.Int32)">
             <summary>
-            Calcula o valor acrescido de juros com base no período (meses)
+            Calcula o valor final com juros referente a quantidade de meses
             </summary>
             <param name="valorInicial">Valor inicial</param>
             <param name="meses">Número de meses</param>
-            <returns>Retorna o valor calculado</returns>
+            <returns>Retorna o valor com os juros calculado</returns>
         </member>
         <member name="M:API2.Controllers.ShowMeTheCodeController.GetUrlGitHub">
             <summary>
@@ -18,10 +18,25 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:API2.Models.CalculaJurosModel.RetornaCalculoJuros(System.Double,System.Int32)">
+            <summary>
+            Calcula o valor final com juros referente a quantidade de meses
+            </summary>
+            <param name="valorInicial">Valor Inicial</param>
+            <param name="meses">Quantidade de meses</param>
+            <returns>Retona o valor com os juros calculado</returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
         <member name="T:API2.Models.SettingsModel">
             <summary>
             Classe que lê as configurações no arquivo appsettings.json
             </summary>
+        </member>
+        <member name="M:API2.Models.ShowMeTheCodeModel.RetornaUrlGitHub">
+            <summary>
+            Retorna o diretório do projeto no GitHub
+            </summary>
+            <returns>Retorna o diretório do projeto no GitHub</returns>
         </member>
         <member name="T:API2.Models.UtilitiesModel">
             <summary>

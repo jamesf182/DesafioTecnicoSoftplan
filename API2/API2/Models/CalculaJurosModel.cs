@@ -1,21 +1,22 @@
-﻿using API2.DAL;
-using API2.ICollections;
+﻿using API.Models;
+using API2.DAL;
 
 namespace API2.Models
 {
     public class CalculaJurosModel : ICalculaJuros
     {
-        private DataAccess? _dataAccess;
-        private UtilitiesModel? _utilities;
+        private readonly DataAccess _dataAccess = new();
+        private readonly UtilitiesModel _utilities = new();
 
+        /// <summary>
+        /// Calcula o valor final com juros referente a quantidade de meses
+        /// </summary>
+        /// <param name="valorInicial">Valor Inicial</param>
+        /// <param name="meses">Quantidade de meses</param>
+        /// <returns>Retona o valor com os juros calculado</returns>
+        /// <exception cref="Exception"></exception>
         public double RetornaCalculoJuros(double valorInicial, int meses)
         {
-            // instância objeto de DataAccess
-            _dataAccess = new DataAccess();
-
-            // instância objeto do Model Utilities
-            _utilities = new UtilitiesModel();
-
             // seta url da API que será consultada
             string url = "api/TaxaJuros";
 

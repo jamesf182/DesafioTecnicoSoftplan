@@ -8,7 +8,7 @@
             <summary>
             Retorna a taxa de juros
             </summary>
-            <returns>Retorna a taxa de turos</returns>
+            <returns>Retorna a taxa de juros</returns>
         </member>
     </members>
 </doc>

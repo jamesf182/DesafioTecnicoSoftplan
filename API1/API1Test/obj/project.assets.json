@@ -6199,9 +6199,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API1\\API1Test\\API1Test.csproj",
-      "projectName": "API1Test",
-      "projectPath": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API1\\API1Test\\API1Test.csproj",
+      "projectUniqueName": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API1\\API1Test\\UnitTests.csproj",
+      "projectName": "UnitTests",
+      "projectPath": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API1\\API1Test\\UnitTests.csproj",
       "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
       "outputPath": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API1\\API1Test\\obj\\",
       "projectStyle": "PackageReference",

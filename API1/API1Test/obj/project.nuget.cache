@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xb6x0Kq6ppLl94C88use3ayR7/v29TROwuZtJrTWcDDifd46rl/NkjHwwTqL3Q8+Jm2ojhpl4spr4SJD4rHBVQ==",
+  "dgSpecHash": "rVQcni7Yx6ZSGe49tEVhhuuPiufUo+Y3QIpIx8fknFAerFpmmQI8cjS2Qrwo8rz3tU5CLrJUsUn4WCNqwKgxUQ==",
   "success": true,
-  "projectFilePath": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API1\\API1Test\\API1Test.csproj",
+  "projectFilePath": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API1\\API1Test\\UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\James\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\James\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

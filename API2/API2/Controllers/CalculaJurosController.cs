@@ -1,6 +1,4 @@
-﻿using API2.DAL;
-using API2.ICollections;
-using API2.Models;
+﻿using API2.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API2.Controllers

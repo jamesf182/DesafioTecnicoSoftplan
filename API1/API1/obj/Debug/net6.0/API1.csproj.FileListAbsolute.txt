@@ -108,3 +108,5 @@ C:\Desenvolvimento\DesafioTecnicoSoftplan\API1\API1\obj\Debug\net6.0\API1.genrun
 C:\Desenvolvimento\DesafioTecnicoSoftplan\API1\API1\obj\Debug\net6.0\ref\API1.dll
 D:\GitHub\DesafioTecnicoSoftplan\API1\API1\bin\Debug\net6.0\API1.xml
 D:\GitHub\DesafioTecnicoSoftplan\API1\API1\obj\Debug\net6.0\API1.xml
+C:\Desenvolvimento\DesafioTecnicoSoftplan\API1\API1\bin\Debug\net6.0\API1.xml
+C:\Desenvolvimento\DesafioTecnicoSoftplan\API1\API1\obj\Debug\net6.0\API1.xml

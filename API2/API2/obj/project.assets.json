@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Microsoft.AspNetCore.Razor.Design/2.2.0": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/Microsoft.AspNetCore.Razor.Design.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.AspNetCore.Razor.Design.props": {}
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -205,6 +214,31 @@
     }
   },
   "libraries": {
+    "Microsoft.AspNetCore.Razor.Design/2.2.0": {
+      "sha512": "VLWK+ZtMMNukY6XjxYHc7mz33vkquoEzQJHm/LCF5REVxIaexLr+UTImljRRJBdUDJluDAQwU+59IX0rFDfURA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.razor.design/2.2.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/netstandard2.0/Microsoft.AspNetCore.Razor.Design.CodeGeneration.targets",
+        "build/netstandard2.0/Microsoft.AspNetCore.Razor.Design.props",
+        "buildMultiTargeting/Microsoft.AspNetCore.Razor.Design.props",
+        "microsoft.aspnetcore.razor.design.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.razor.design.nuspec",
+        "tools/Microsoft.AspNetCore.Razor.Language.dll",
+        "tools/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/Microsoft.CodeAnalysis.Razor.dll",
+        "tools/Microsoft.CodeAnalysis.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "tools/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "tools/rzc.deps.json",
+        "tools/rzc.dll",
+        "tools/rzc.runtimeconfig.json"
+      ]
+    },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "type": "package",
@@ -542,24 +576,30 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
       "System.Configuration.ConfigurationManager >= 6.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\james\\.nuget\\packages\\": {}
+    "C:\\Users\\James\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\DesafioTecnicoSoftplan\\API2\\API2\\API2.csproj",
-      "projectName": "API2",
-      "projectPath": "D:\\GitHub\\DesafioTecnicoSoftplan\\API2\\API2\\API2.csproj",
-      "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\DesafioTecnicoSoftplan\\API2\\API2\\obj\\",
+      "projectUniqueName": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API2\\API2\\API.csproj",
+      "projectName": "API",
+      "projectPath": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API2\\API2\\API.csproj",
+      "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
+      "outputPath": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API2\\API2\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -585,6 +625,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Razor.Design": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"

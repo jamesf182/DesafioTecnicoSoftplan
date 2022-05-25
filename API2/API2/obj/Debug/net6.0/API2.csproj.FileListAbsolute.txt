@@ -114,3 +114,5 @@ D:\GitHub\DesafioTecnicoSoftplan\API2\API2\obj\Debug\net6.0\API2.xml
 D:\GitHub\DesafioTecnicoSoftplan\API2\API2\obj\Debug\net6.0\API2.pdb
 D:\GitHub\DesafioTecnicoSoftplan\API2\API2\obj\Debug\net6.0\API2.genruntimeconfig.cache
 D:\GitHub\DesafioTecnicoSoftplan\API2\API2\obj\Debug\net6.0\ref\API2.dll
+C:\Desenvolvimento\DesafioTecnicoSoftplan\API2\API2\bin\Debug\net6.0\API2.xml
+C:\Desenvolvimento\DesafioTecnicoSoftplan\API2\API2\obj\Debug\net6.0\API2.xml

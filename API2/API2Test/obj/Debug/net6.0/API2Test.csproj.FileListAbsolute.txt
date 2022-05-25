@@ -369,3 +369,8 @@ D:\GitHub\DesafioTecnicoSoftplan\API2\API2Test\obj\Debug\net6.0\API2Test.pdb
 D:\GitHub\DesafioTecnicoSoftplan\API2\API2Test\obj\Debug\net6.0\API2Test.genruntimeconfig.cache
 D:\GitHub\DesafioTecnicoSoftplan\API2\API2Test\obj\Debug\net6.0\ref\API2Test.dll
 D:\GitHub\DesafioTecnicoSoftplan\API2\API2Test\bin\Debug\net6.0\FluentAssertions.dll
+C:\Desenvolvimento\DesafioTecnicoSoftplan\API2\API2Test\bin\Debug\net6.0\Castle.Core.dll
+C:\Desenvolvimento\DesafioTecnicoSoftplan\API2\API2Test\bin\Debug\net6.0\FluentAssertions.dll
+C:\Desenvolvimento\DesafioTecnicoSoftplan\API2\API2Test\bin\Debug\net6.0\Moq.dll
+C:\Desenvolvimento\DesafioTecnicoSoftplan\API2\API2Test\bin\Debug\net6.0\NSubstitute.dll
+C:\Desenvolvimento\DesafioTecnicoSoftplan\API2\API2Test\bin\Debug\net6.0\API2.xml

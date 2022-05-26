@@ -1,6 +1,6 @@
 # Desafio Técnico Softplan
 
-Projeto desenvolvido seguindo a descrição do documento <b>Desafio Técnico .Net Core</b> da <b>Softplan</b> para se tornar um <b><i>Softplayer</b></i>. 😊
+Projeto desenvolvido seguindo a descrição do documento <b>Desafio Técnico .Net Core</b> da <b>Softplan</b> para se tornar um <b><i>Softplayer</b></i>. ❤️
 
 ## 🚀 Começando
 
@@ -47,9 +47,9 @@ Após baixar o projeto, você pode abrir com o ```Visual Studio 2022```.
 
 As ferramentas e tipos de projetos utilizados foram:
 
-* IDE <b>Visual Studio 2022</b>
-* As API's foram desenvolvidas utlizando o modelo de projeto <b>API Web do ASP.NET Core 6.0</b>
-* Os testes unitários e testes de integração foram desenvolvidos utilizando o modelo de projeto <b>Projeto de Teste do xUnit</b>
+* IDE ```Visual Studio 2022```
+* As API's foram desenvolvidas utlizando o modelo de projeto ```API Web do ASP.NET Core 6.0```
+* Os testes unitários e testes de integração foram desenvolvidos utilizando o modelo de projeto ```Projeto de Teste do xUnit```
 
 
 ---

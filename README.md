@@ -1,10 +1,10 @@
 # Desafio Técnico Softplan
 
-Projeto desenvolvido seguindo a descrição do documento <b>Desafio Técnico .Net Core</b> da <b>Softplan</b> para se tornar um <b><i>Softplayer</b></i>. ❤️
+Projeto desenvolvido seguindo a descrição do documento <b>Desafio Técnico .Net Core</b> da <b>Softplan</b> com o objeto de me tornar um <b><i>Softplayer</b></i>. ❤️
 
 ## 🚀 Começando
 
-Foram desenvolvidas duas API's, uma com dois endpoints e uma com um endpoint: 
+Foram desenvolvidas duas API's, uma com um endpoint e uma com dois endpoints: 
 
 ## 📌 API 1
 
@@ -29,9 +29,8 @@ Foram desenvolvidas duas API's, uma com dois endpoints e uma com um endpoint:
 
 ### 📋 Pré-requisitos
 
-```
-Microsoft.NET SDK 6.0.300
-```
+* [Microsoft.NET SDK 6.0.300](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+
 ## 📦 Acesso ao projeto
 
 Você pode [acessar o código fonte do projeto](https://github.com/jamesf182/DesafioTecnicoSoftplan) ou [baixá-lo](https://github.com/jamesf182/DesafioTecnicoSoftplan/archive/refs/heads/master.zip).

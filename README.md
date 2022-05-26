@@ -1,6 +1,6 @@
 # Desafio Técnico Softplan
 
-Projeto desenvolvido seguindo a descrição do documento <b>Desafio Técnico .Net Core</b> da <b>Softplan</b> com o objeto de me tornar um <b><i>Softplayer</b></i>. ❤️
+Projeto desenvolvido seguindo a descrição do documento <b>Desafio Técnico .Net Core</b> da <b>Softplan</b> com o objetivo de me tornar um <b><i>Softplayer</b></i>. ❤️
 
 ## 🚀 Começando
 

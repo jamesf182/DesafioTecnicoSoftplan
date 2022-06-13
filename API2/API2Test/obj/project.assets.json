@@ -6785,24 +6785,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\James\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\james\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API2\\API2Test\\UnitTests.csproj",
+      "projectUniqueName": "D:\\GitHub\\DesafioTecnicoSoftplan\\API2\\API2Test\\UnitTests.csproj",
       "projectName": "UnitTests",
-      "projectPath": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API2\\API2Test\\UnitTests.csproj",
-      "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-      "outputPath": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API2\\API2Test\\obj\\",
+      "projectPath": "D:\\GitHub\\DesafioTecnicoSoftplan\\API2\\API2Test\\UnitTests.csproj",
+      "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\DesafioTecnicoSoftplan\\API2\\API2Test\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6816,8 +6811,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API2\\API2\\API.csproj": {
-              "projectPath": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API2\\API2\\API.csproj"
+            "D:\\GitHub\\DesafioTecnicoSoftplan\\API2\\API2\\API.csproj": {
+              "projectPath": "D:\\GitHub\\DesafioTecnicoSoftplan\\API2\\API2\\API.csproj"
             }
           }
         }

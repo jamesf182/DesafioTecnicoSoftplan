@@ -16,7 +16,7 @@ builder.Services.AddSwaggerGen(options =>
     {
         Version = "v1",
         Title = "API 1",
-        Description = "ASP.NET Core Web API 1 - Desafio Técnico Softplan"
+        Description = "ASP.NET Core Web API 1 - Desafio TÃ©cnico Softplan"
     });
 
     // using System.Reflection;
@@ -26,12 +26,17 @@ builder.Services.AddSwaggerGen(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    
 }
+
+app.UseSwagger();
+app.UseSwaggerUI(options =>
+{
+    options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+    options.RoutePrefix = "";
+});
 
 app.UseHttpsRedirection();
 

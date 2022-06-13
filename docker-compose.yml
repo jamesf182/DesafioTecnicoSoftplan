@@ -1,0 +1,32 @@
+version: "3.8"
+
+networks:
+    api1net:
+    api2net:
+
+services:
+
+    api1:
+        build:
+            context: ./API1/API1
+            dockerfile: Dockerfile-API1
+        container_name: api1
+        ports:
+            - 5001:80
+        networks:
+            - api1net
+        hostname: "api1container"
+
+    api2:
+        build:
+            context: ./API2/API2
+            dockerfile: Dockerfile-API2
+        container_name: api2
+        ports:
+            - 5002:80
+        networks:
+            - api1net
+            - api2net
+        depends_on:
+            - api1
+        hostname: "api2container"

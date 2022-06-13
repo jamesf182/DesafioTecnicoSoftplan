@@ -9,7 +9,7 @@ namespace UnitTests.Fixtures
         public CalculaJurosFixture()
         {
             var serviceCollection = new ServiceCollection();
-            serviceCollection.AddTransient<ICalculaJuros, CalculaJurosModel>();
+            serviceCollection.AddScoped<ICalculaJuros, CalculaJurosModel>();
 
             ServiceProvider = serviceCollection.BuildServiceProvider();
         }

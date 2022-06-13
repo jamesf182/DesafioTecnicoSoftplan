@@ -35,21 +35,22 @@ Foram desenvolvidas duas API's, uma com um endpoint e uma com dois endpoints:
 
 Você pode [acessar o código fonte do projeto](https://github.com/jamesf182/DesafioTecnicoSoftplan) ou [baixá-lo](https://github.com/jamesf182/DesafioTecnicoSoftplan/archive/refs/heads/master.zip).
 
-## ⚙️ Executando os testes
-
-Após baixar o projeto, você pode abrir com o ```Visual Studio 2022```.
-* Primeiro acesse a pasta ```API1```, abra o arquivo ```API1.sln``` e execute o projeto
-* Depois acesse a pasta ```API2```, abra o arquivo ```API2.sln``` e execute o projeto
-* Ambos estão sendo executados utilizando o ```Swagger```, onde é possível testar as funcionalidades das API's
-
 ## 🛠️ Construído com
 
-As ferramentas e tipos de projetos utilizados foram:
+* Foi utilizado a IDE ```Visual Studio Community 2022``` para o desenvolvimento das API's e dos testes automatizados.
+* As API's foram desenvolvidas utlizando o modelo de projeto ```API Web do ASP.NET Core 6.0```.
+* Os testes unitários e testes de integração foram desenvolvidos utilizando o modelo de projeto ```Projeto de Teste do xUnit```.
 
-* IDE ```Visual Studio 2022```
-* As API's foram desenvolvidas utlizando o modelo de projeto ```API Web do ASP.NET Core 6.0```
-* Os testes unitários e testes de integração foram desenvolvidos utilizando o modelo de projeto ```Projeto de Teste do xUnit```
+* Foi utilizado a IDE ```Visual Studio Code``` para o desenvolvimento dos containers utilizando ```Docker```.
 
+## ⚙️ Executando os testes
+
+Após baixar o projeto, você pode abrir o diretório completo no ```Visual Studio Code```, executar o arquivo ```docker-compose.yml``` e executar os containers ```api1``` e ```api2```.
+
+Ou você pode abrir com o ```Visual Studio 2022```.
+* Primeiro acesse a pasta ```API1```, abra o arquivo ```API1.sln``` e execute o projeto.
+* Depois acesse a pasta ```API2```, abra o arquivo ```API2.sln``` e execute o projeto.
+* Ambos estão sendo executados utilizando o ```Swagger```, onde é possível testar as funcionalidades das API's.
 
 ---
 ⌨️ com ❤️ por [James Freitas](https://github.com/jamesf182) 😊

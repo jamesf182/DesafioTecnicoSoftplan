@@ -7,6 +7,7 @@ namespace API2.Models
     {
         private readonly DataAccess _dataAccess = new();
         private readonly UtilitiesModel _utilities = new();
+        private readonly SettingsModel _settings = new();
 
         /// <summary>
         /// Calcula o valor final com juros referente a quantidade de meses
@@ -17,9 +18,6 @@ namespace API2.Models
         /// <exception cref="Exception"></exception>
         public double RetornaCalculoJuros(double valorInicial, int meses)
         {
-            // seta url da API que será consultada
-            string url = "api/TaxaJuros";
-
             try
             {
                 // validações
@@ -34,7 +32,7 @@ namespace API2.Models
                 }
 
                 // busca a taxa de juros
-                double taxaJuros = _dataAccess.GetObject<double>(url);
+                double taxaJuros = _dataAccess.GetObject<double>(_settings.ApiTaxaJuros);
 
                 // calcula o valor final
                 double valorFinal = valorInicial * Math.Pow((1 + taxaJuros), meses);

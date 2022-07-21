@@ -1,4 +1,4 @@
-﻿using API2.Models;
+﻿using API.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API2.Controllers
@@ -7,7 +7,14 @@ namespace API2.Controllers
     [ApiController]
     public class CalculaJurosController : ControllerBase
     {
-        private readonly CalculaJurosModel _calculaJurosModel = new();
+        //private readonly CalculaJurosModel _calculaJuros = new();
+
+        private readonly ICalculaJuros _calculaJuros;
+
+        public CalculaJurosController(ICalculaJuros calculaJuros)
+        {
+            _calculaJuros = calculaJuros;
+        }
 
         /// <summary>
         /// Calcula o valor final com juros referente a quantidade de meses
@@ -18,7 +25,7 @@ namespace API2.Controllers
         [HttpGet]
         public double GetCalculaJuros(double valorInicial, int meses)
         {
-            return _calculaJurosModel.RetornaCalculoJuros(valorInicial, meses);
+            return _calculaJuros.RetornaCalculoJuros(valorInicial, meses);
         }
     }
 }

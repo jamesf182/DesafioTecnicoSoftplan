@@ -1,3 +1,5 @@
+using API.Models;
+using API2.Models;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 
@@ -23,6 +25,8 @@ builder.Services.AddSwaggerGen(options =>
     var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
 });
+
+builder.Services.AddScoped<ICalculaJuros, CalculaJurosModel>();
 
 var app = builder.Build();
 

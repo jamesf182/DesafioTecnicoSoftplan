@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\DesafioTecnicoSoftplan\\API2\\API2\\API.csproj": {}
+    "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API2\\API2\\API.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\DesafioTecnicoSoftplan\\API2\\API2\\API.csproj": {
+    "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API2\\API2\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\DesafioTecnicoSoftplan\\API2\\API2\\API.csproj",
+        "projectUniqueName": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API2\\API2\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\GitHub\\DesafioTecnicoSoftplan\\API2\\API2\\API.csproj",
-        "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\DesafioTecnicoSoftplan\\API2\\API2\\obj\\",
+        "projectPath": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API2\\API2\\API.csproj",
+        "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
+        "outputPath": "C:\\Desenvolvimento\\DesafioTecnicoSoftplan\\API2\\API2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -7,6 +7,7 @@
     {
         public string UrlAPI1 { get; set; }
         public string UrlGitHub { get; set; }
+        public string ApiTaxaJuros { get; set; }
                 
         public SettingsModel()
         {
@@ -15,6 +16,7 @@
 
             UrlAPI1 = app.Configuration.GetValue<string>("UrlAPI1");
             UrlGitHub = app.Configuration.GetValue<string>("UrlGitHub");
+            ApiTaxaJuros = app.Configuration.GetValue<string>("ApiTaxaJuros");
         }
     }
 }
